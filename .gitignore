@@ -1,0 +1,40 @@
+# Data directories (per project requirements)
+data/raw/
+data/processed/*
+!data/processed/retrieval_index_corpus.csv
+!data/processed/train_silver_set.csv
+!data/processed/llm_classification_cache.json
+!data/processed/llm_draft_reply_cache.json
+!data/processed/llm_judge_cache.json
+
+# Python cache & artifacts
+__pycache__/
+*.py[cod]
+*.class
+*.so
+.pytest_cache/
+.ipynb_checkpoints/
+
+# Environment files
+.env
+.streamlit/secrets.toml
+venv/
+env/
+.venv/
+
+# Model & index cache
+models/*
+!models/retrieval_embeddings.npy
+!models/retrieval_metadata.csv
+!models/tfidf_baseline.joblib
+.cache/
+
+# Secrets
+.env
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Large raw dataset
+data/raw/twcs/twcs.csv

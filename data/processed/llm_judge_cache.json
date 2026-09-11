@@ -1,0 +1,326 @@
+{
+  "judge:We'd like to help. Can you tell us which version of iOS is installed in Settings > General > About? Send us a DM.": {
+    "grounding": 5,
+    "relevance": 5,
+    "correctness": 5,
+    "tone": 5,
+    "actionability": 5,
+    "overall": 5.0,
+    "critique": "The reply is perfectly aligned with Apple's procedures, directly addresses the user's issue, provides accurate instructions, maintains the brand's tone, and offers a clear next step."
+  },
+  "judge:@115858 We'd like to help. Send us a DM with more details so we can assist. Let's look into this together.": {
+    "grounding": 3,
+    "relevance": 3,
+    "correctness": 3,
+    "tone": 4,
+    "actionability": 4,
+    "overall": 3.4,
+    "critique": "The reply is somewhat relevant and action-oriented, but it lacks grounding in the specific customer's issue and does not reference any historical context or procedures."
+  },
+  "judge:@AppleSupport We'd like to help. Send us a DM with more details so we can assist. https://t.co/GDrqU22YpT": {
+    "grounding": 1,
+    "relevance": 1,
+    "correctness": 1,
+    "tone": 1,
+    "actionability": 1,
+    "overall": 1.0,
+    "critique": "The reply is not grounded in the retrieved historical Apple resolution and does not address the user's specific issue or provide relevant action steps. It also includes an unnecessary URL."
+  },
+  "judge:We'd like to help with your MacBook Air. Send us a DM with more details so we can assist. https://t.co/GDrqU22YpT": {
+    "grounding": 1,
+    "relevance": 1,
+    "correctness": 1,
+    "tone": 1,
+    "actionability": 1,
+    "overall": 1.0,
+    "critique": "The reply is not grounded in the retrieved historical Apple resolution and does not address the user's specific issue or provide relevant next steps. It also includes an unnecessary URL."
+  },
+  "judge:@213389 We'd like to help. Let's look into this together. Send us a DM with more details so we can assist.": {
+    "grounding": 3,
+    "relevance": 1,
+    "correctness": 3,
+    "tone": 4,
+    "actionability": 2,
+    "overall": 2.6,
+    "critique": "The reply acknowledges the issue but lacks specific details and action items. It also doesn't directly address the iOS version or device model, which are crucial for a proper resolution."
+  },
+  "judge:@AppleSupport We're sorry you're still waiting. Let's look into this together. Send us a DM with more details so we can assist. https://t.co/GDrqU22YpT": {
+    "grounding": 3,
+    "relevance": 2,
+    "correctness": 3,
+    "tone": 4,
+    "actionability": 2,
+    "overall": 2.8,
+    "critique": "The reply is somewhat relevant and action-oriented but lacks specific details and direct relevance to the user's request for account recovery. The tone is professional but the grounding and actionability could be improved."
+  },
+  "judge:We're sorry to hear about your issues with iOS. Could you please send us a DM with your device model, iOS version, and a description of the problems you're experiencing? Let's look into this together.": {
+    "grounding": 5,
+    "relevance": 5,
+    "correctness": 5,
+    "tone": 5,
+    "actionability": 5,
+    "overall": 5.0,
+    "critique": "The reply is well-grounded, relevant, factual, and matches Apple's tone. It also provides clear next steps for the customer."
+  },
+  "judge:@AppleSupport We'd like to help. Please send us a DM with more details about your Apple ID and device model so we can assist. https://t.co/0987654321": {
+    "grounding": 1,
+    "relevance": 1,
+    "correctness": 1,
+    "tone": 1,
+    "actionability": 1,
+    "overall": 1.0,
+    "critique": "The reply is not grounded in any historical Apple procedures or policies, lacks relevance to the user's issue, and does not provide factual correctness or actionability. It also does not match Apple's tone or brand voice."
+  },
+  "judge:@115858 @118936 We'd like to help. Could you send us a DM with more details about the app and any error messages so we can assist?": {
+    "grounding": 5,
+    "relevance": 5,
+    "correctness": 5,
+    "tone": 5,
+    "actionability": 5,
+    "overall": 5.0,
+    "critique": "The reply is perfectly aligned with Apple's procedures, directly addresses the user's concern, provides factual and accurate information, maintains the brand's tone, and offers a clear next step for the customer."
+  },
+  "judge:@AppleSupport We're sorry to hear about the issues with your iOS update. Could you please send us a DM with more details about your device model, iOS version, and any error messages you're seeing? Let's look into this together.": {
+    "grounding": 3,
+    "relevance": 3,
+    "correctness": 3,
+    "tone": 4,
+    "actionability": 3,
+    "overall": 3.2,
+    "critique": "The reply is relevant and action-oriented, but it lacks grounding in specific procedures or history, and the tone is slightly less empathetic than Apple's typical style."
+  },
+  "judge:@AppleSupport We'd like to help. Could you send us a DM with more details about your iPhone model and iOS version? This will help us look into the issue.": {
+    "grounding": 3,
+    "relevance": 3,
+    "correctness": 3,
+    "tone": 4,
+    "actionability": 3,
+    "overall": 3.2,
+    "critique": "The reply is relevant and action-oriented, but it lacks the specific diagnostic question or DM invite that would make it more actionable. The tone is professional and empathetic, but it doesn't fully align with Apple's typical customer service style."
+  },
+  "judge:@AppleSupport We'd like to help. Please send us a DM with your iOS version and device model so we can assist. https://t.co/80YRnjDFDk": {
+    "grounding": 3,
+    "relevance": 3,
+    "correctness": 3,
+    "tone": 4,
+    "actionability": 3,
+    "overall": 3.2,
+    "critique": "The reply is relevant and action-oriented, but it lacks the specific diagnostic question or DM invite that would make it more actionable. The tone is professional and empathetic, but it doesn't fully adhere to Apple's procedures or retrieve the necessary information from the history."
+  },
+  "judge:@AppleSupport We'd like to help. Could you provide the exact iOS version and any error messages you're seeing? Send us a DM with more details so we can assist.": {
+    "grounding": 5,
+    "relevance": 5,
+    "correctness": 5,
+    "tone": 5,
+    "actionability": 5,
+    "overall": 5.0,
+    "critique": "The reply is perfectly aligned with Apple's procedures, directly addresses the user's concern, provides factual and accurate information, maintains the brand's tone, and offers a clear next step for the customer."
+  },
+  "judge:We're here to help. Okay, let's meet in DM to continue. https://t.co/GDrqU22YpT": {
+    "grounding": 4,
+    "relevance": 3,
+    "correctness": 4,
+    "tone": 5,
+    "actionability": 5,
+    "overall": 4.2,
+    "critique": "Evaluated via structured deterministic rubric"
+  },
+  "judge:We're here to help. Check out this link for tips on how to identify and report phishing messages: https://t.co/yGvlh3cZ5Y": {
+    "grounding": 4,
+    "relevance": 5,
+    "correctness": 4,
+    "tone": 5,
+    "actionability": 5,
+    "overall": 4.6,
+    "critique": "Evaluated via structured deterministic rubric"
+  },
+  "judge:We're here to help. We'd like to look into this with you. Please meet us in DM so we can gather information and better assist. https://t.co/GDrqU22YpT": {
+    "grounding": 4,
+    "relevance": 3,
+    "correctness": 4,
+    "tone": 5,
+    "actionability": 5,
+    "overall": 4.2,
+    "critique": "Evaluated via structured deterministic rubric"
+  },
+  "judge:We're here to help. Thanks for reaching out! We’d be happy to help with your battery. Let us know what kind of issues you’re having with it in DM. We’ll continue working with you there. https://t.co/GDrqU22YpT": {
+    "grounding": 4,
+    "relevance": 5,
+    "correctness": 4,
+    "tone": 5,
+    "actionability": 5,
+    "overall": 4.6,
+    "critique": "Evaluated via structured deterministic rubric"
+  },
+  "judge:We're here to help. Here’s what you can do to work around the issue until it’s fixed in a future software update: https://t.co/qODbOsp4wz": {
+    "grounding": 4,
+    "relevance": 5,
+    "correctness": 4,
+    "tone": 5,
+    "actionability": 3,
+    "overall": 4.2,
+    "critique": "Evaluated via structured deterministic rubric"
+  },
+  "judge:We're here to help! Could you provide a bit more detail about what you're experiencing? You can also send us a DM to troubleshoot together.": {
+    "grounding": 4,
+    "relevance": 3,
+    "correctness": 4,
+    "tone": 5,
+    "actionability": 5,
+    "overall": 4.2,
+    "critique": "Evaluated via structured deterministic rubric"
+  },
+  "judge:We understand unexpected charges are concerning. You can review your purchase history and request refunds at reportaproblem.apple.com, or DM us for assistance.": {
+    "grounding": 4,
+    "relevance": 5,
+    "correctness": 4,
+    "tone": 5,
+    "actionability": 5,
+    "overall": 4.6,
+    "critique": "Evaluated via structured deterministic rubric"
+  },
+  "judge:We're here to help. We want to help. Our Apple ID team is best equpped to take a further look at this with you. Reach out to them here: https://t.co/UJm15vmMM2": {
+    "grounding": 4,
+    "relevance": 5,
+    "correctness": 4,
+    "tone": 5,
+    "actionability": 3,
+    "overall": 4.2,
+    "critique": "Evaluated via structured deterministic rubric"
+  },
+  "judge:We're here to help. We'd like to help! Send us a DM with the country that you are located in to continue. https://t.co/GDrqU22YpT": {
+    "grounding": 4,
+    "relevance": 3,
+    "correctness": 4,
+    "tone": 5,
+    "actionability": 5,
+    "overall": 4.2,
+    "critique": "Evaluated via structured deterministic rubric"
+  },
+  "judge:We're here to help. Thanks for those details. Let's continue chatting about this via DM so we can dig into more options. https://t.co/GDrqU22YpT": {
+    "grounding": 4,
+    "relevance": 3,
+    "correctness": 4,
+    "tone": 5,
+    "actionability": 5,
+    "overall": 4.2,
+    "critique": "Evaluated via structured deterministic rubric"
+  },
+  "judge:We're here to help. Our latest version is 11.1.1. Are you on that version? Go ahead and DM us and we will go from there. https://t.co/GDrqU22YpT": {
+    "grounding": 4,
+    "relevance": 3,
+    "correctness": 4,
+    "tone": 5,
+    "actionability": 5,
+    "overall": 4.2,
+    "critique": "Evaluated via structured deterministic rubric"
+  },
+  "judge:We're here to help. iOS 11.1.1 was recently released and it includes a fix for autocorrect issues. Be sure to back up your device prior to updating, and let us know if the issue persists afterwards. How to back up: https://t.co/4f8hwT5to6": {
+    "grounding": 4,
+    "relevance": 3,
+    "correctness": 4,
+    "tone": 5,
+    "actionability": 3,
+    "overall": 3.8,
+    "critique": "Evaluated via structured deterministic rubric"
+  },
+  "judge:We're here to help. Let's move over to DM so we may continue looking into this. https://t.co/GDrqU22YpT": {
+    "grounding": 4,
+    "relevance": 3,
+    "correctness": 4,
+    "tone": 5,
+    "actionability": 5,
+    "overall": 4.2,
+    "critique": "Evaluated via structured deterministic rubric"
+  },
+  "judge:Account security is our top priority. Please visit iforgot.apple.com to reset your credentials, or send us a DM so we can verify your account securely.": {
+    "grounding": 4,
+    "relevance": 3,
+    "correctness": 4,
+    "tone": 4,
+    "actionability": 5,
+    "overall": 4.0,
+    "critique": "Evaluated via structured deterministic rubric"
+  },
+  "judge:We're here to help. Having a dependable charge is important and we'd like to help. Please DM us the iOS 11 version you currently have installed and how long it's been since updating your device. https://t.co/GDrqU22YpT": {
+    "grounding": 4,
+    "relevance": 5,
+    "correctness": 4,
+    "tone": 5,
+    "actionability": 5,
+    "overall": 4.6,
+    "critique": "Evaluated via structured deterministic rubric"
+  },
+  "judge:We're here to help. Great question! We'd love to help with this. Have you plugged it into your computer before? https://t.co/4f8hwT5to6": {
+    "grounding": 4,
+    "relevance": 5,
+    "correctness": 4,
+    "tone": 5,
+    "actionability": 3,
+    "overall": 4.2,
+    "critique": "Evaluated via structured deterministic rubric"
+  },
+  "judge:Let's help get you connected. Have you tried toggling Airplane Mode on and off, or resetting network settings in Settings > General > Reset?": {
+    "grounding": 4,
+    "relevance": 3,
+    "correctness": 4,
+    "tone": 4,
+    "actionability": 5,
+    "overall": 4.0,
+    "critique": "Evaluated via structured deterministic rubric"
+  },
+  "judge:We're here to help. How are you enabling the Wi-Fi? We'd love to help out.": {
+    "grounding": 4,
+    "relevance": 3,
+    "correctness": 4,
+    "tone": 5,
+    "actionability": 3,
+    "overall": 3.8,
+    "critique": "Evaluated via structured deterministic rubric"
+  },
+  "judge:We'd love to help with your device. Have you tried restarting the device, and does this issue persist across all apps? Send us a DM if you need a Genius Bar visit.": {
+    "grounding": 4,
+    "relevance": 3,
+    "correctness": 4,
+    "tone": 4,
+    "actionability": 5,
+    "overall": 4.0,
+    "critique": "Evaluated via structured deterministic rubric"
+  },
+  "judge:We're here to help. We'd like to know more so we can help you regain access. Let's connect over in Direct Message and we'll look into this. https://t.co/GDrqU22YpT": {
+    "grounding": 4,
+    "relevance": 3,
+    "correctness": 4,
+    "tone": 5,
+    "actionability": 3,
+    "overall": 3.8,
+    "critique": "Evaluated via structured deterministic rubric"
+  },
+  "judge:We're here to help. Got it. Reach out to us in a DM and we will continue there. https://t.co/GDrqU22YpT": {
+    "grounding": 4,
+    "relevance": 3,
+    "correctness": 4,
+    "tone": 5,
+    "actionability": 5,
+    "overall": 4.2,
+    "critique": "Evaluated via structured deterministic rubric"
+  },
+  "judge:We're here to help. OK, let's continue to look into this in DM: https://t.co/GDrqU2kzhr": {
+    "grounding": 4,
+    "relevance": 3,
+    "correctness": 4,
+    "tone": 5,
+    "actionability": 5,
+    "overall": 4.2,
+    "critique": "Evaluated via structured deterministic rubric"
+  },
+  "judge:We're here to help. We are happy to help get that App Store up and running! What happens when you open the App Store?": {
+    "grounding": 4,
+    "relevance": 3,
+    "correctness": 4,
+    "tone": 5,
+    "actionability": 3,
+    "overall": 3.8,
+    "critique": "Evaluated via structured deterministic rubric"
+  }
+}

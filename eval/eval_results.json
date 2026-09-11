@@ -1,0 +1,275 @@
+{
+  "evaluation_timestamp": "2026-09-11 23:55:54",
+  "total_examples_evaluated": 200,
+  "execution_runtime_seconds": 7.63,
+  "intent_classification": {
+    "trivial_baseline": {
+      "majority_class": "other",
+      "accuracy": 0.075,
+      "macro_f1": 0.0174
+    },
+    "simple_baseline_tfidf": {
+      "accuracy": 0.765,
+      "macro_f1": 0.7266
+    },
+    "system_classifier": {
+      "accuracy": 0.855,
+      "macro_f1": 0.837,
+      "weighted_f1": 0.8643,
+      "confusion_matrix": [
+        [
+          53,
+          0,
+          0,
+          0,
+          4,
+          0,
+          0,
+          0
+        ],
+        [
+          1,
+          32,
+          0,
+          1,
+          3,
+          0,
+          0,
+          0
+        ],
+        [
+          3,
+          0,
+          21,
+          1,
+          0,
+          0,
+          0,
+          1
+        ],
+        [
+          0,
+          0,
+          0,
+          18,
+          0,
+          0,
+          0,
+          2
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          11,
+          0,
+          0,
+          8
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          16,
+          0,
+          4
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          5,
+          1
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          15
+        ]
+      ],
+      "labels": [
+        "software_update_os",
+        "battery_power_charging",
+        "account_appleid_icloud",
+        "billing_subscription_store",
+        "hardware_display_audio",
+        "network_connectivity",
+        "general_complaint_store",
+        "other"
+      ],
+      "per_class_f1": {
+        "software_update_os": 0.9298,
+        "battery_power_charging": 0.9275,
+        "account_appleid_icloud": 0.8936,
+        "billing_subscription_store": 0.9,
+        "hardware_display_audio": 0.5946,
+        "network_connectivity": 0.8889,
+        "general_complaint_store": 0.9091,
+        "other": 0.6522
+      }
+    }
+  },
+  "escalation_decision": {
+    "target_class": "escalate",
+    "precision": 0.6104,
+    "recall": 0.6714,
+    "f1_score": 0.6395,
+    "overall_accuracy": 0.735,
+    "confusion_matrix": {
+      "labels": [
+        "auto",
+        "escalate"
+      ],
+      "matrix": [
+        [
+          100,
+          30
+        ],
+        [
+          23,
+          47
+        ]
+      ]
+    },
+    "false_negatives_count": 23,
+    "false_positives_count": 30,
+    "false_negatives_samples": [
+      {
+        "tweet_id": 1838672,
+        "inbound_text": "@AppleSupport IOS 11, causing lot of problems in my iphone. Worst version ever!!!",
+        "true_intent": "software_update_os",
+        "predicted_intent": "software_update_os",
+        "ideal_decision": "escalate",
+        "predicted_decision": "auto",
+        "reason": "Approved for auto-handling: routine technical inquiry with high confidence (0.95) and verified grounding (0.90)",
+        "failure_type": "False Negative (Dangerous Miss)"
+      },
+      {
+        "tweet_id": 1933042,
+        "inbound_text": "@AppleSupport hi, since updating to iOS 11 both my iPhone 5s are experiencing not charging issue. Is this a known bug?",
+        "true_intent": "battery_power_charging",
+        "predicted_intent": "battery_power_charging",
+        "ideal_decision": "escalate",
+        "predicted_decision": "auto",
+        "reason": "Approved for auto-handling: routine technical inquiry with high confidence (0.95) and verified grounding (0.74)",
+        "failure_type": "False Negative (Dangerous Miss)"
+      },
+      {
+        "tweet_id": 2308831,
+        "inbound_text": "I think this is my last iPhone. I’m having way too many issues since this las update. My phone freezes and resets all the time. @AppleSupport",
+        "true_intent": "software_update_os",
+        "predicted_intent": "software_update_os",
+        "ideal_decision": "escalate",
+        "predicted_decision": "auto",
+        "reason": "Approved for auto-handling: routine technical inquiry with high confidence (0.95) and verified grounding (0.78)",
+        "failure_type": "False Negative (Dangerous Miss)"
+      },
+      {
+        "tweet_id": 2355131,
+        "inbound_text": "@AppleSupport Great. Updated and the I issue is gone but my battery is disintegrating.",
+        "true_intent": "battery_power_charging",
+        "predicted_intent": "battery_power_charging",
+        "ideal_decision": "escalate",
+        "predicted_decision": "auto",
+        "reason": "Approved for auto-handling: routine technical inquiry with high confidence (0.95) and verified grounding (0.81)",
+        "failure_type": "False Negative (Dangerous Miss)"
+      },
+      {
+        "tweet_id": 1465035,
+        "inbound_text": "New IOS update new battery issues again! Been unplugged for ten mins already down to 80% @AppleSupport",
+        "true_intent": "battery_power_charging",
+        "predicted_intent": "battery_power_charging",
+        "ideal_decision": "escalate",
+        "predicted_decision": "auto",
+        "reason": "Approved for auto-handling: routine technical inquiry with high confidence (0.95) and verified grounding (0.81)",
+        "failure_type": "False Negative (Dangerous Miss)"
+      }
+    ],
+    "false_positives_samples": [
+      {
+        "tweet_id": 2555261,
+        "inbound_text": "@AppleSupport EVERY SINGLE ONE. Even the music app crashes sometimes. The phone freezes and restarts on its own. Some apps don’t open without repeat attempts(twitter).",
+        "true_intent": "software_update_os",
+        "predicted_intent": "software_update_os",
+        "ideal_decision": "auto",
+        "predicted_decision": "escalate",
+        "reason": "Escalation triggered by: Elevated customer aggression detected (excessive uppercase/shouting)",
+        "failure_type": "False Positive (Unnecessary Escalation)"
+      },
+      {
+        "tweet_id": 2343746,
+        "inbound_text": "@AppleSupport It's going to drain 5GB of my data just to give me some worthless emojis I don't want. GREAT!",
+        "true_intent": "battery_power_charging",
+        "predicted_intent": "billing_subscription_store",
+        "ideal_decision": "auto",
+        "predicted_decision": "escalate",
+        "reason": "Escalation triggered by: High-risk domain: financial billing dispute / refund requires human account access",
+        "failure_type": "False Positive (Unnecessary Escalation)"
+      },
+      {
+        "tweet_id": 2220894,
+        "inbound_text": "@AppleSupport Just tested using a default alarm sound. Doesn't care about that other, whether or not you max out the volume.",
+        "true_intent": "hardware_display_audio",
+        "predicted_intent": "other",
+        "ideal_decision": "auto",
+        "predicted_decision": "escalate",
+        "reason": "Escalation triggered by: Low intent classification confidence (0.60 < 0.70)",
+        "failure_type": "False Positive (Unnecessary Escalation)"
+      },
+      {
+        "tweet_id": 2353564,
+        "inbound_text": "@AppleSupport do you know the reason why this has appeared on my screen? Thanks https://t.co/KEoSHBjIM8",
+        "true_intent": "other",
+        "predicted_intent": "other",
+        "ideal_decision": "auto",
+        "predicted_decision": "escalate",
+        "reason": "Escalation triggered by: Low intent classification confidence (0.60 < 0.70)",
+        "failure_type": "False Positive (Unnecessary Escalation)"
+      },
+      {
+        "tweet_id": 1044440,
+        "inbound_text": "@AppleSupport phone fell from 0.5 metres and front screen shattered - how is it the strongest ever ? Replace it free ?? Where in Gurgaon?",
+        "true_intent": "hardware_display_audio",
+        "predicted_intent": "other",
+        "ideal_decision": "auto",
+        "predicted_decision": "escalate",
+        "reason": "Escalation triggered by: Low intent classification confidence (0.60 < 0.70)",
+        "failure_type": "False Positive (Unnecessary Escalation)"
+      }
+    ]
+  },
+  "reply_quality_llm_judge": {
+    "overall_score": 3.78,
+    "dimensions": {
+      "grounding": 3.66,
+      "relevance": 3.31,
+      "correctness": 3.66,
+      "tone": 4.4,
+      "actionability": 3.89
+    }
+  },
+  "human_vs_judge_agreement": {
+    "sample_size": 35,
+    "quadratic_weighted_cohen_kappa": 0.742,
+    "linear_weighted_cohen_kappa": 0.71,
+    "pearson_correlation": 0.791,
+    "pearson_p_value": 1.4e-08,
+    "spearman_rank_correlation": 0.768,
+    "spearman_p_value": 5.2e-08,
+    "mean_absolute_error": 0.286,
+    "mean_human_score": 4.12,
+    "mean_judge_score": 4.3,
+    "judge_lenience_bias": 0.18
+  }
+}
