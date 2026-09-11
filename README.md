@@ -8,11 +8,11 @@ An explainable support copilot for `@AppleSupport` built from real customer-supp
 
 The product is intentionally human-in-the-loop: it recommends an action and drafts a response; it never silently sends a customer reply.
 
-> ## Live demo
->
-> **[Open the deployed Hiver Support Agent](https://hiver-working-project.streamlit.app/)**
->
-> Try the prepared **Battery drain** and **Billing dispute** scenarios directly in the hosted app.
+# Live demo
+
+ **[Open the deployed Hiver Support Agent](https://hiver-working-project.streamlit.app/)**
+
+ Try the prepared **Battery drain** and **Billing dispute** scenarios directly in the hosted app.
 
 ## Assignment deliverables
 
