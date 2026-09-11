@@ -163,21 +163,6 @@ The current headline results are also summarized below for quick review.
 5. Use **Evaluation** to compare against the majority-class and TF-IDF baselines.
 6. Use **Intent guide** to explain the taxonomy and out-of-scope boundaries.
 
-## Demo video
-
-Record a 90-120 second walkthrough. Keep the browser at `http://localhost:8501` and zoom to approximately 110%.
-
-### Suggested recording script
-
-1. **0:00-0:15 - Problem:** “This is a support copilot for Apple Support. It classifies a noisy tweet, finds similar resolved conversations, drafts a reply, and decides whether a human must review it.”
-2. **0:15-0:35 - Safe technical case:** choose **Battery drain**, process it, and point out the intent, confidence, grounding score, retrieved evidence, and auto-handle decision.
-3. **0:35-0:55 - Risk case:** choose **Billing dispute**, process it, and show that financial/legal language causes escalation with an explicit reason.
-4. **0:55-1:10 - Explainability:** expand **Show grounding evidence** and read one historical customer/reply pair.
-5. **1:10-1:25 - Evaluation:** open **Evaluation** and show the system versus trivial and TF-IDF baselines.
-6. **1:25-1:40 - Boundaries:** open **Intent guide** and explain that private DMs, image-only messages, and multi-intent messages are not silently automated.
-
-For a polished video, crop out browser bookmarks and keep the address bar visible so the reviewer knows the demo is local. Do not record API keys, `.env`, or personal account information.
-
 ### Headline evaluation results
 
 | Area | Result |
