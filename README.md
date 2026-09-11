@@ -10,7 +10,7 @@ The product is intentionally human-in-the-loop: it recommends an action and draf
 
 > ## Live demo
 >
-> **[Open the deployed Hiver Support Copilot](https://hiver-working-project.streamlit.app/)**
+> **[Open the deployed Hiver Support Agent](https://hiver-working-project.streamlit.app/)**
 >
 > Try the prepared **Battery drain** and **Billing dispute** scenarios directly in the hosted app.
 
